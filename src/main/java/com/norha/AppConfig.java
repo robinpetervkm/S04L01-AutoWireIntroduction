@@ -7,6 +7,4 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("org.studyesay")
 public class AppConfig {
 	
-	
-
 }
