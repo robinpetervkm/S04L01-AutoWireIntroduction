@@ -23,7 +23,7 @@ public class App {
 		AnnotationConfigApplicationContext context = 
 				new AnnotationConfigApplicationContext(AppConfig.class);
 		
-		Car myCar = context.getBean("swift",Car.class);
+		Car myCar = context.getBean("corolla",Car.class);
 		System.out.println(myCar.specs());
 		context.close();
 	}
