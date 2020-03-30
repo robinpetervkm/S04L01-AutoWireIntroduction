@@ -6,7 +6,7 @@ import com.norha.interfaces.Car;
 @Component("MyCustomName")
 public class Corolla implements Car  {
 	
-	Engine engine;
+	Engine engine = new Engine();
 
 	public String specs() {
 		
