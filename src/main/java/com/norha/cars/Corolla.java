@@ -1,12 +1,15 @@
 package com.norha.cars;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.norha.interfaces.Car;
-@Component("MyCustomName")
+@Component("myCorolla")
 public class Corolla implements Car  {
 	
-	Engine engine = new Engine();
+	
+	@Autowired
+	Engine engine;
 
 	public String specs() {
 		

@@ -23,7 +23,7 @@ public class App {
 		AnnotationConfigApplicationContext context = 
 				new AnnotationConfigApplicationContext(AppConfig.class);
 		
-		Car myCar = context.getBean("MyCustomName",Car.class);
+		Car myCar = context.getBean("myCorolla",Car.class);
 		System.out.println(myCar.specs());
 		context.close();
 	}
