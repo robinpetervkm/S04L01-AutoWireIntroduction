@@ -1,9 +1,11 @@
 package com.norha.cars;
-import com.norha.interfaces.Car;
+import org.springframework.stereotype.Component;
 
+import com.norha.interfaces.Car;
+@Component 
 public class Swift implements Car {
 
-	@Override
+	
 	public String specs() {
 		
 		return "Hatchback from Suzuki";
