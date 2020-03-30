@@ -24,7 +24,7 @@ public class App {
 				new AnnotationConfigApplicationContext(AppConfig.class);
 		
 		Car myCar = context.getBean(Car.class);
-		myCar.specs();
+		System.out.println(myCar.specs());
 		context.close();
 	}
 
